@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="top-panel">
+        <div class="logo">Todo List</div>
+
+    </div>
+    <div class="content">
+
+        <div class="side-panel">
+            <div class="control">
+                <div class="filter-control">
+                    <div class="button">Today</div>
+                    <div class="button">This Week</div>
+                    <div class="button">All</div>
+                </div>
+                <div class="button" id="add-pjt-btn">Add Projects</div>
+
+            </div>
+
+            
+
+            <div class="projects-overview"></div>
+
+        </div>
+
+        <div class="cards-container">
+
+
+        </div>
+
+    </div>
+
+    <div class="form" id="add-pjt-form-container">
+        <form id="pjt-form">
+            <input type="text" id="pjt-name" name="pjt-name">
+        </form>
+        <div class="validation-block" id="add-pjt-vd"></div>
+        <div class="form-btn-container">
+            <div class="button form-btn" id="pjt-form-add">Add</div>
+            <div class="button form-btn" id="pjt-form-cancel">Cancel</div>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+</html>

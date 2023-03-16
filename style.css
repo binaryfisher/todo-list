@@ -1,0 +1,141 @@
+body, html{
+    width: 100vm;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+   
+}
+
+.top-panel{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(245, 231, 206);
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 30px;
+    align-items: center;
+    background-color: rgb(104, 101, 101);
+}
+.content{
+ width: 100%;
+ height: 100vh;
+ display: grid;
+ grid-template-columns: 240px 1fr;
+
+}
+.side-panel{
+   background-color: rgb(217, 226, 233);
+   display: grid;
+   grid-template-rows: 3fr 4fr;
+   /* align-items: center; */
+   justify-content: center;
+}
+
+.cards-container{
+    
+}
+
+.control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.filter-control{
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.projects-overview{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    overflow-y:auto;
+    
+}
+.project-name{
+    width: 160px;
+    height: 30px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    border-radius: 8px;
+    color: rgb(223, 207, 178);
+    background-color: #04AA6D;
+}
+.button{
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    width: 140px;
+    height: 50px;
+    font-weight: 500;
+    color: white;
+    background-color:#04AA6D ;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+
+
+.button:hover {
+    background-color: hsl(158, 95%, 24%);
+    font-size: 1.1em;
+    
+}
+
+.form{
+
+    width: 260px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border-radius: 8px;
+    background-color:  rgb(151, 145, 145);
+    /* display: none; */
+
+}
+
+.form-btn{
+    width: 80px;
+   
+    
+}
+input{
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+.form-btn-container{
+    display: flex;
+    gap: 20px;
+}
+
+.validation-block{
+    color: rgb(218, 0, 0);
+    font-weight: bold;
+    height: 10px;
+    font-size: 12px;
+}
+.valid{
+    color:rgb(5, 131, 5);
+}
+
